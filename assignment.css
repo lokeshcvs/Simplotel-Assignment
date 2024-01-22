@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-image: linear-gradient(to right, #f7e7bc, #fce6ae, #fcd9ae, #fae3c8);
+    background-size: cover;
+}
+
+
+.navbar-contianer {
+    background-color: #f78902;
+}
+
+.list-container {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.list-item {
+    color: black;
+    list-style-type: none;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.menu-bar-image {
+    height: 20px;
+    width: 30px;
+}
+
+.first-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.fc-content-container {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.fc-heading {
+    font-family: "Roboto";
+    color: black;
+}
+
+.fc-para {
+    font-family: "Roboto";
+    color: black;
+}
+
+.fc-button {
+    background-color: #fad69d;
+    color: white;
+    padding: 15px;
+    border-width: 0px;
+    height: 50px;
+    width: 140px;
+}
+
+
+.fc-image{
+    height: 60vh;
+    width: 50vw;
+}
+
+
+.second-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.sc-inside-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+.sc-two-image-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.sc-image{
+    height: 35vh;
+    width: 20vw;
+    margin: 3px;
+}
+
+.sc-final-image{
+    height: 70vh;
+    width: 25vw;
+    margin: 3px;
+}
+
+.sc-content-container{
+    background-color: #f78902;
+    margin-right: 120px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+.main-heading{
+    color: black;
+    font-family: "roboto";
+    font-size: 30px;
+}
+
+.content-para{
+    color: black;
+    font-family: "roboto";
+}
+
+
+.final-arrow-image{
+    height: 20px;
+    width: 20px;
+    background-color: #f78902;
+    padding-top: 10px;
+    font-size: bold;
+    margin-left: 10px;
+}
